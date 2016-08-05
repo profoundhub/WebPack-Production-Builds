@@ -3,7 +3,7 @@ const webpack = require('webpack');
 
 module.exports = {
   devtool: 'eval',
-  entry: './index.js',
+  entry: './index',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
