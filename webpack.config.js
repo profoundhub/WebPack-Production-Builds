@@ -2,7 +2,7 @@ path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  devtool: 'eval',
+  devtool: 'cheap-module-source-map',
   entry: './index',
   output: {
     path: path.join(__dirname, 'dist'),
